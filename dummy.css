@@ -1,0 +1,158 @@
+body {
+  background-color: #fcf6f0;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, raleway;
+  margin: 0 auto;
+  padding: 12px;
+  max-width: 450px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  line-height: 1.5;
+  font-weight: 460;
+}
+
+button {
+  display: block;
+  padding: 10px 20px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #fcf6f0;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+}
+button:hover{
+  background-color: bisque;
+}
+
+button:active{
+  background-color: gray;
+}
+
+main {
+  border: 1px solid rgba(0, 0, 0, 0.349);
+  border-radius: 10px;
+  padding: 8px;
+  display: none;
+}
+
+
+.result{
+  border: 1px solid rgba(0, 0, 0, 0.349);
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 8px;
+  display: none;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.result i{
+  color: red;
+}
+/*============================================*/
+
+#openTwo {
+  border: 2px solid #ff3131;
+  background-color: #ff8a8a;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#openTwo:hover{
+  background-color: tomato;
+}
+
+#openTwo:active{
+  background-color: tomato;
+}
+
+.pink {
+  background-color: #fcf6f0;
+  border: 2px solid #ff3131;
+  padding: 8px;
+  padding-top: 0px;
+  display: none;
+}
+
+.pink p {
+  background-color: #fcf6f0;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+/*============================================*/
+#openThree {
+  border: 2px solid #3179ff;
+  background-color: #8abdff;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#openThree:hover{
+  background-color: skyblue;
+}
+
+#openThree:active{
+  background-color:cornflowerblue;
+}
+
+.blue {
+  border: 2px solid #3179ff;
+  background-color: #8abdff;
+  padding: 8px;
+  padding-top: 0px;
+  display: none;
+}
+
+.blue p {
+  background-color: #fcf6f0;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+/*============================================*/
+
+.yas{
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nah{
+  text-align: left;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+/*======================================*/
+
+#yes{
+  background-color: rgba(48, 255, 48, 0.705);
+}
+
+#no{
+  background-color: tomato;
+}
